@@ -138,7 +138,7 @@ body {
     width: 100%;
   }
   .card__img img {
-    content: url('./images/image-header-mobile.jpg');
+    content: url('images/image-header-mobile.jpg');
     width: 100%;
     display: block;
   }
