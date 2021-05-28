@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 *,
 *::after,
 *::before {
@@ -22,14 +24,17 @@ html {
 }
 
 body {
-  width: 100%;
-  height: 100%;
+  height: 100vh;
+  max-width: 1440px;
   margin: 0;
   box-sizing: border-box;
   background-color: var(--main-bg-color);
   color: var(--para-white);
   font-size: var(--font-size);
   position: relative;
+
+  font-family: Inter, sans-serif;
+  font-weight: 400;
 }
 
 ::selection {
@@ -50,30 +55,76 @@ body {
 }
 
 .card__container {
-  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 144rem;
+
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  overflow: hidden;
 }
 .card__body {
   min-width: 54rem;
   background-color: var(--card-bg-color);
-  padding: 6rem 6rem 4rem 4rem;
+  padding: 6rem 10rem 8rem 6rem;
   display: grid;
+}
+.card__title {
+  font-size: 3.5rem;
+  color: var(--head-white);
+}
+.card__text {
+  font-size: 1.5rem;
+  color: var(--para-white);
+  line-height: 2.5rem;
 }
 
 .card__stats__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  place-items: flex-end;
+  justify-content: space-between;
 }
+.card__stat--stat {
+  color: var(--head-white);
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: Lexend Deca, sans-serif;
+}
+.card__stat--heading {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--stat-head-white);
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+.card__img {
+  position: relative;
+}
+.card__img img {
+  height: 100%;
+}
+
 .card__img::before {
   content: '';
+  position: absolute;
   width: 100%;
   height: 100%;
-  position: absolute;
-  background-color: hsla(277, 64%, 61%, 0.623);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsl(277, 70%, 40%);
+  opacity: 0.6;
 }
+
+/* @media (max-width: 1100px) {
+  .card__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 70%;
+    margin: auto 2rem auto 2rem;
+    max-width: 300px;
+  }
+} */
