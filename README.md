@@ -11,7 +11,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Barna-Molnar/frontend-mentor-card-component]
-- Live Site URL: [https://github.com/Barna-Molnar/frontend-mentor-card-component/settings/pages]
+- Live Site URL: [https://barna-molnar.github.io/frontend-mentor-card-component/]
 
 ### Built with
 
