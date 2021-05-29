@@ -10,8 +10,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Barna-Molnar/frontend-mentor-card-component)
-- Live Site URL: [](hhttps://github.com/Barna-Molnar/frontend-mentor-card-component/settings/pages)
+- Solution URL: [https://github.com/Barna-Molnar/frontend-mentor-card-component]
+- Live Site URL: [hhttps://github.com/Barna-Molnar/frontend-mentor-card-component/settings/pages]
 
 ### Built with
 
@@ -22,4 +22,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [Barna-Molnar](https://www.frontendmentor.io/profile/Barna-Molnar)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/Barna-Molnar]
